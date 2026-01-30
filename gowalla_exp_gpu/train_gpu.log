@@ -1,0 +1,38 @@
+2026-01-14 00:01:54,842 Namespace(project='./output', name='gowalla_exp_gpu', exist_ok=True, data_train='C:/pythonwork/data/Gowalla-CA/gowalla_train.csv', data_val='C:/pythonwork/data/Gowalla-CA/gowalla_val.csv', data_adj_mtx='C:/pythonwork/data/Gowalla-CA/graph_A.csv', data_node_feats='C:/pythonwork/data/Gowalla-CA/graph_X.csv', feature1='checkin_cnt', feature2='poi_catid_code', feature3='latitude', feature4='longitude', gcn_nhid=[128], poi_embed_dim=128, gcn_dropout=0.5, node_attn_nhid=128, user_embed_dim=64, time_embed_dim=64, cat_embed_dim=64, transformer_nhead=4, transformer_nhid=128, transformer_nlayers=2, transformer_dropout=0.5, batch=16, epochs=30, lr=0.001, weight_decay=0.0001, time_loss_weight=0.1, lr_scheduler_factor=0.5, short_traj_thres=2, workers=0, save_embeds=True, save_weights=True, device='cuda', time_feature='checkin_time', save_dir='./output\\gowalla_exp_gpu')
+2026-01-14 00:01:55,013 Train: (103990, 11), Val: (23944, 11)
+2026-01-14 00:02:11,505 POI graph: (58, 58), POI feature: (9756, 4)
+2026-01-14 00:03:06,834 Train loader: 718, Val loader: 176
+2026-01-14 00:05:58,437 Namespace(project='./output', name='gowalla_exp_gpu', exist_ok=True, data_train='C:/pythonwork/data/Gowalla-CA/gowalla_train.csv', data_val='C:/pythonwork/data/Gowalla-CA/gowalla_val.csv', data_adj_mtx='C:/pythonwork/data/Gowalla-CA/graph_A.csv', data_node_feats='C:/pythonwork/data/Gowalla-CA/graph_X.csv', feature1='checkin_cnt', feature2='poi_catid_code', feature3='latitude', feature4='longitude', gcn_nhid=[128], poi_embed_dim=128, gcn_dropout=0.5, node_attn_nhid=128, user_embed_dim=64, time_embed_dim=64, cat_embed_dim=64, transformer_nhead=4, transformer_nhid=128, transformer_nlayers=2, transformer_dropout=0.5, batch=16, epochs=30, lr=0.001, weight_decay=0.0001, time_loss_weight=0.1, lr_scheduler_factor=0.5, short_traj_thres=2, workers=0, save_embeds=True, save_weights=True, device='cuda', time_feature='checkin_time', save_dir='./output\\gowalla_exp_gpu')
+2026-01-14 00:05:58,608 Train: (103990, 11), Val: (23944, 11)
+2026-01-14 00:06:14,580 POI graph: (58, 58), POI feature: (9756, 4)
+2026-01-14 00:07:08,746 Train loader: 718, Val loader: 176
+2026-01-14 00:07:13,695 Epoch 1/30, Train Loss: 2.4658, Val Loss: 2.3414
+2026-01-14 00:07:16,401 Epoch 2/30, Train Loss: 1.9388, Val Loss: 2.4045
+2026-01-14 00:07:20,364 Epoch 3/30, Train Loss: 1.9635, Val Loss: 2.4424
+2026-01-14 00:07:23,504 Epoch 4/30, Train Loss: 2.0259, Val Loss: 2.4620
+2026-01-14 00:07:26,291 Epoch 5/30, Train Loss: 2.0759, Val Loss: 2.4666
+2026-01-14 00:07:29,056 Epoch 6/30, Train Loss: 2.0573, Val Loss: 2.4708
+2026-01-14 00:07:32,137 Epoch 7/30, Train Loss: 2.0591, Val Loss: 2.4696
+2026-01-14 00:07:35,841 Epoch 8/30, Train Loss: 2.0335, Val Loss: 2.4712
+2026-01-14 00:07:39,774 Epoch 9/30, Train Loss: 2.0283, Val Loss: 2.4716
+2026-01-14 00:07:43,603 Epoch 10/30, Train Loss: 2.0555, Val Loss: 2.4691
+2026-01-14 00:07:47,336 Epoch 11/30, Train Loss: 2.0238, Val Loss: 2.4684
+2026-01-14 00:07:51,005 Epoch 12/30, Train Loss: 1.9926, Val Loss: 2.4661
+2026-01-14 00:07:54,088 Epoch 13/30, Train Loss: 2.0117, Val Loss: 2.4670
+2026-01-14 00:07:56,801 Epoch 14/30, Train Loss: 1.9986, Val Loss: 2.4649
+2026-01-14 00:07:59,544 Epoch 15/30, Train Loss: 2.0354, Val Loss: 2.4650
+2026-01-14 00:08:02,282 Epoch 16/30, Train Loss: 2.0290, Val Loss: 2.4641
+2026-01-14 00:08:05,015 Epoch 17/30, Train Loss: 2.0050, Val Loss: 2.4627
+2026-01-14 00:08:07,730 Epoch 18/30, Train Loss: 2.0164, Val Loss: 2.4629
+2026-01-14 00:08:10,409 Epoch 19/30, Train Loss: 1.9657, Val Loss: 2.4638
+2026-01-14 00:08:13,108 Epoch 20/30, Train Loss: 2.0084, Val Loss: 2.4611
+2026-01-14 00:08:15,769 Epoch 21/30, Train Loss: 2.0059, Val Loss: 2.4628
+2026-01-14 00:08:18,405 Epoch 22/30, Train Loss: 1.9886, Val Loss: 2.4614
+2026-01-14 00:08:21,058 Epoch 23/30, Train Loss: 1.9833, Val Loss: 2.4614
+2026-01-14 00:08:23,692 Epoch 24/30, Train Loss: 1.9753, Val Loss: 2.4626
+2026-01-14 00:08:26,344 Epoch 25/30, Train Loss: 2.0242, Val Loss: 2.4621
+2026-01-14 00:08:29,003 Epoch 26/30, Train Loss: 1.9892, Val Loss: 2.4609
+2026-01-14 00:08:31,637 Epoch 27/30, Train Loss: 1.9863, Val Loss: 2.4610
+2026-01-14 00:08:34,515 Epoch 28/30, Train Loss: 2.0157, Val Loss: 2.4611
+2026-01-14 00:08:38,166 Epoch 29/30, Train Loss: 1.9995, Val Loss: 2.4600
+2026-01-14 00:08:41,214 Epoch 30/30, Train Loss: 2.0382, Val Loss: 2.4585
